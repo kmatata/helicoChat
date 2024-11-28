@@ -507,7 +507,7 @@ ADDITIONAL INSIGHTS BASED ON "Antibiotic resistance in Helicobacter pylori":
 
 
 
-Based on this, I'd like good and clear suggestions to add to the resistance file. Also use AAC.11.1.132 to grab data needed to better populate the table:
+Based on the resistance spreadsheet, I'd like good and clear suggestions to add to the resistance file. Also use AAC.11.1.132 to grab data needed to better populate the table:
 
 Antibiotic Identification
 * Name: Amoxicillin (Amoxil, Trimox)
