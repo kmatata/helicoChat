@@ -320,3 +320,160 @@ By systematically considering these factors, researchers can prioritize combinat
 
 ---
 ---
+
+# Research Paper Analysis; Maastricht VI...
+
+---
+
+## Section 1: Dialogue Prompt
+
+You are a research paper analysis service focused on determining the primary findings of the paper and analyzing its scientific rigor and quality.
+Take a deep breath and think step by step about how to best accomplish this goal using the following steps.
+
+    Consume the entire paper named Management of Helicobacter pylori infection: the Maastricht VI/Florence consensus report and think deeply about it.
+    Map out all the claims and implications on a virtual whiteboard in your mind.
+
+    Extract a summary of the paper and its conclusions into a 25-word sentence called SUMMARY.
+    Extract the list of authors in a section called AUTHORS.
+    Extract the list of organizations the authors are associated, e.g., which university they're at, with in a section called AUTHOR ORGANIZATIONS.
+    Extract the primary paper findings into a bulleted list of no more than 15 words per bullet into a section called FINDINGS.
+    Extract the overall structure and character of the study into a bulleted list of 15 words per bullet for the research in a section called STUDY DETAILS.
+    Extract the study quality by evaluating the following items in a section called STUDY QUALITY that has the following bulleted sub-sections:
+    STUDY DESIGN: (give a 15 word description, including the pertinent data and statistics.)
+    SAMPLE SIZE: (give a 15 word description, including the pertinent data and statistics.)
+    CONFIDENCE INTERVALS (give a 15 word description, including the pertinent data and statistics.)
+    P-VALUE (give a 15 word description, including the pertinent data and statistics.)
+    EFFECT SIZE (give a 15 word description, including the pertinent data and statistics.)
+    CONSISTENCE OF RESULTS (give a 15 word description, including the pertinent data and statistics.)
+    METHODOLOGY TRANSPARENCY (give a 15 word description of the methodology quality and documentation.)
+    STUDY REPRODUCIBILITY (give a 15 word description, including how to fully reproduce the study.)
+    Data Analysis Method (give a 15 word description, including the pertinent data and statistics.)
+    Discuss any Conflicts of Interest in a section called CONFLICTS OF INTEREST. Rate the conflicts of interest as NONE DETECTED, LOW, MEDIUM, HIGH, or CRITICAL.
+    Extract the researcher's analysis and interpretation in a section called RESEARCHER'S INTERPRETATION, in a 15-word sentence.
+    In a section called PAPER QUALITY output the following sections:
+    Novelty: 1 - 10 Rating, followed by a 15 word explanation for the rating.
+    Rigor: 1 - 10 Rating, followed by a 15 word explanation for the rating.
+    Empiricism: 1 - 10 Rating, followed by a 15 word explanation for the rating.
+    Rating Chart: Create a chart like the one below that shows how the paper rates on all these dimensions.
+    Known to Novel is how new and interesting and surprising the paper is on a scale of 1 - 10.
+    Weak to Rigorous is how well the paper is supported by careful science, transparency, and methodology on a scale of 1 - 10.
+    Theoretical to Empirical is how much the paper is based on purely speculative or theoretical ideas or actual data on a scale of 1 - 10. Note: Theoretical papers can still be rigorous and novel and should not be penalized overall for being Theoretical alone. EXAMPLE CHART for 7, 5, 9 SCORES (fill in the actual scores): Known [------7---] Novel Weak [----5-----] Rigorous Theoretical [--------9-] Empirical END EXAMPLE CHART
+    FINAL SCORE:
+    A - F based on the scores above, conflicts of interest, and the overall quality of the paper. On a separate line, give a 15-word explanation for the grade.
+    SUMMARY STATEMENT: A final 25-word summary of the paper, its findings, and what we should do about it if it's true.
+
+    If the paper makes claims and presents stats but doesn't show how it arrived at these stats, then the Methodology Transparency would be low, and the RIGOR score should be lowered as well.
+    An A would be a paper that is novel, rigorous, empirical, and has no conflicts of interest.
+    A paper could get an A if it's theoretical but everything else would have to be perfect.
+    The stronger the claims the stronger the evidence needs to be, as well as the transparency into the methodology. If the paper makes strong claims, but the evidence or transparency is weak, then the RIGOR score should be lowered.
+    Remove at least 1 grade (and up to 2) for papers where compelling data is provided but it's not clear what exact tests were run and/or how to reproduce those tests.
+    Do not relax this transparency requirement for papers that claim security reasons.
+    If a paper does not clearly articulate its methodology in a way that's replicable, lower the RIGOR and overall score significantly.
+    Remove up to 1-3 grades for potential conflicts of interest indicated in the report.
+
+    Output all sections above.
+    Ensure the scoring looks closely at the reproducibility and transparency of the methodology, and that it doesn't give a pass to papers that don't provide the data or methodology for safety or other reasons.
+    For the chart, use the actual scores to fill in the chart, and ensure the number associated with the score is placed on the right place on the chart., e.g., here is the chart for 2 Novelty, 8 Rigor, and 3 Empiricism: Known [-2--------] Novel Weak [-------8--] Rigorous Theoretical [--3-------] Empirical
+    For the findings and other analysis sections, write at the 9th-grade reading level. This means using short sentences and simple words/concepts to explain everything.
+    Ensure there's a blank line between each bullet of output.
+    Create the output using the formatting above.
+    In the markdown, don't use formatting like bold or italics. Make the output maximially readable in plain text.
+    Do not output warnings or notes—just the requested sections.
+
+also id like you to ouput findings based on the project text called Antibiotic resistance in Helicobacter pylori
+as an example:
+You may want to create a spreadsheet that captures the summary you presented in the table.
+1. Define standard treatment  combination drugs ( use the same Table format) 
+   a)Antibiotics -  initial effort done (is the list exhaustive?); Two more column in the combination eg Metronidazole is used with Tetracycline and their efficacy
+   b) Acid blockers - Esomeprazole,/ Nexium .......... Pariet (Rabrazole) ......
+   c) Healing enhancers - Pepto (Bismuth salicylate)
+   d) Microflora (microbiome restoration) ----- Floranorm (fungal), lactobacilli....
+
+---
+
+## Section 2: References
+
+1. Publication:  Gut and BMJ Open Gastroenterology
+	Paper: Management of Helicobacter pylori infection: the Maastricht VI/Florence consensus report
+2. Publication: Journal of Clinical Laboratory Analysis
+	Paper: Antibiotic resistance in Helicobacter pylori: From potential biomolecular mechanisms to clinical practice | https://onlinelibrary.wiley.com/doi/10.1002/jcla.24885
+
+---
+
+## Section 3: Generated Output
+
+Here is the analysis of the paper "Management of Helicobacter pylori infection: the Maastricht VI/Florence consensus report" based on the provided instructions:
+
+SUMMARY:
+The Maastricht VI/Florence consensus provides updated recommendations for managing H. pylori infection based on the latest evidence.
+
+AUTHORS:
+Peter Malfertheiner, Francis Megraud, Theodore Rokkas, Javier P Gisbert, Jyh-Ming Liou, Christian Schulz, Antonio Gasbarrini, Richard H Hunt, Marcis Leja, Colm O'Morain, Massimo Rugge, Sebastian Suerbaum, Herbert Tilg, Kentaro Sugano, Emad M El-Omar
+
+AUTHOR ORGANIZATIONS:
+LMU Munich, University of Bordeaux, Henry Dunant Hospital Center, Hospital Universitario de La Princesa, National Taiwan University Hospital, DZIF Partner Site Munich, Fondazione Policlinico Universitario Gemelli IRCCS, McMaster University, University of Latvia, Trinity College Dublin, University of Padova, Max von Pettenkofer Institute, Medical University Innsbruck, Jichi Medical School, University of New South Wales, University of Aberdeen
+
+FINDINGS:
+• H. pylori infection always causes gastritis and is an infectious disease
+• Test-and-treat is appropriate for uninvestigated dyspepsia in low H. pylori prevalence areas
+• Antibiotic resistance in H. pylori is increasing globally, requiring new treatment strategies
+• Bismuth quadruple or concomitant non-bismuth quadruple therapy recommended for first-line treatment
+• Antibiotic susceptibility testing recommended before prescribing clarithromycin-containing therapy
+
+STUDY DETAILS:
+• Consensus report based on systematic literature reviews and expert opinion
+• Provides updated recommendations for H. pylori management in various clinical scenarios
+• Covers diagnosis, treatment, prevention, gastric cancer, and interactions with gut microbiota
+• Provides graded levels of evidence and strength of recommendations for each statement
+
+STUDY QUALITY:
+• STUDY DESIGN: Consensus report based on systematic literature reviews and expert opinion
+• SAMPLE SIZE: Not applicable (consensus report, not original research study)  
+• CONFIDENCE INTERVALS: Not reported
+• P-VALUE: Not reported
+• EFFECT SIZE: Not reported 
+• CONSISTENCY OF RESULTS: High consistency across consensus statements and recommendations
+• METHODOLOGY TRANSPARENCY: Methodology for literature reviews and consensus process not fully described
+• STUDY REPRODUCIBILITY: Difficult to fully reproduce without detailed methodology of literature reviews
+• DATA ANALYSIS METHOD: Qualitative synthesis of evidence, no statistical analysis performed
+
+CONFLICTS OF INTEREST:
+MEDIUM - Several authors reported financial relationships with pharmaceutical companies, but these were not considered to influence the recommendations. Mitigating potential bias included only presenting published trial data and ensuring consistency with other published guidelines.
+
+RESEARCHER'S INTERPRETATION:
+Updated evidence-based recommendations aim to optimize management of H. pylori infection in clinical practice.
+
+PAPER QUALITY:
+Novelty: 6 - Builds on previous consensus reports with some new recommendations
+Rigor: 7 - Based on systematic reviews but methodology not fully transparent 
+Empiricism: 4 - Primarily based on expert interpretation of published evidence
+
+Known [----6-----] Novel
+Weak [------7---] Rigorous  
+Theoretical [----4-----] Empirical
+
+FINAL SCORE: 
+B - Provides useful clinical recommendations but lacks some methodological rigor and transparency.
+
+SUMMARY STATEMENT:
+Updated Maastricht/Florence consensus gives evidence-based H. pylori management recommendations. Increased antibiotic resistance requires new treatment strategies.
+
+ADDITIONAL INSIGHTS BASED ON "Antibiotic resistance in Helicobacter pylori":
+
+• Standard H. pylori treatment includes combination of antibiotics, acid blockers, bismuth, and probiotics
+• Spreadsheet summarizing different drug combinations and efficacy could aid treatment decisions
+• Examples of standard treatment components:
+   - Antibiotics: Amoxicillin, Clarithromycin, Metronidazole, Tetracycline 
+   - Acid Blockers: Proton pump inhibitors (e.g. Esomeprazole/Nexium, Rabeprazole/Pariet)
+   - Bismuth: Pepto-Bismol (Bismuth subsalicylate)  
+   - Probiotics: Fungal (e.g. Floranorm), Bacterial (e.g. Lactobacilli)
+• Triple therapy (antibiotic, PPI, probiotic) is standard initial treatment
+• Quadruple therapy (adding bismuth) is used as rescue when resistance is suspected
+• Personalized antibiotic susceptibility testing could improve treatment success in resistant cases
+
+---
+
+## Section 4: Expected Output
+
+---
+---
