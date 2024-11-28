@@ -382,12 +382,31 @@ Take a deep breath and think step by step about how to best accomplish this goal
 
 also id like you to ouput findings based on the project text called Antibiotic resistance in Helicobacter pylori
 as an example:
-You may want to create a spreadsheet that captures the summary you presented in the table.
-1. Define standard treatment  combination drugs ( use the same Table format) 
-   a)Antibiotics -  initial effort done (is the list exhaustive?); Two more column in the combination eg Metronidazole is used with Tetracycline and their efficacy
-   b) Acid blockers - Esomeprazole,/ Nexium .......... Pariet (Rabrazole) ......
-   c) Healing enhancers - Pepto (Bismuth salicylate)
-   d) Microflora (microbiome restoration) ----- Floranorm (fungal), lactobacilli....
+Create a comprehensive analysis of standard H. pylori treatment combinations, organized as follows:
+
+1. Standard Treatment Combination Analysis
+   - Develop a detailed spreadsheet capturing all treatment combinations
+   - Focus on the following key categories:
+
+2. Required Drug Categories:
+
+   A. Antibiotics
+      - Review and expand current antibiotic list
+      - Add combination columns showing which antibiotics are used together (e.g., Metronidazole with Tetracycline)
+      - Include efficacy rates for each combination
+
+   B. Acid Suppressants
+      - List all proton pump inhibitors (e.g., Esomeprazole/Nexium, Rabeprazole/Pariet)
+      - Document standard dosing and duration
+
+   C. Mucosal Protective Agents
+      - Detail protective compounds (e.g., Bismuth subsalicylate/Pepto-Bismol)
+      - Include usage protocols
+
+   D. Microbiome Support
+      - List probiotics and other microflora restoration agents
+      - Include both fungal (e.g., Floranorm) and bacterial (e.g., Lactobacilli) options
+
 
 ---
 
