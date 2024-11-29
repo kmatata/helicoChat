@@ -843,7 +843,7 @@ OUTPUT FORMAT
 
 14. Do not output warnings or notes—just the requested sections.
 
-15. **Use artefacts**
+15. **Use artefact window**
 
 INPUT: analyze the following paper and provide me suggestions to add to the table in the file called resistance clarithromycin_pharmacokinetics. Note don't look for issues dealing with resistance. Just talk about the profile of the antibiotic in question based on the paper. REMEBER THE SUGGESTIONS FOR ADDING TO THE resistance spreadsheet
 
